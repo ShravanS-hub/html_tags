@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            
+        }
+        header,footer{
+            background-color:grey ;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        nav{
+            background-color: lightblue;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .container{
+            padding: 20px;
+           
+        }
+         ul,ol{
+            margin: 20px;
+            padding-left: 40px;
+         }
+         button{
+            background-color: blue;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+
+         }
+         img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px;
+         }
+    </style>
+</head>
+<body>
+    <header>Welcome to my website</header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>About This Page</h2>
+        <p>This page is created to show various html tags</p>
+        <h2>Features</h2>
+        <p>Below are  the some of the features of this page</p>
+        <ol>
+            <li>Header</li>
+            <li>Footer</li>
+            <li>Buttons</li>
+            <li>Images</li>
+        </ol>
+        <p>Additional features inculde</p>
+        <ul>
+            <li>Nav section</li>
+            <li>Anchor Tags</li>
+            <li>Ordered and Unordered list</li>
+            <li>Basic CSS</li>
+        </ul>
+
+        <h2>Image Section</h2>
+        <img src="./image.jpg" alt="Sample Image">
+
+        <h2>Try This Button</h2>
+        <button onclick="alert('Hello! You Clicked the Button')">Click Me</button>
+    </div>
+
+    <footer>
+        <p>&copy;Copy Right</p>
+    </footer>
+</body>
+</html>
